@@ -13,32 +13,17 @@ export default function Cases() {
                     description="Desenvolvimento de uma plataforma de cursos online com foco em UX/UI e performance."
                     imageUrl="/case1.jpg"
                     imageAlt="Imagem do case 1"
-                    link="#"
-                    tags={["React", "Next.js", "Tailwind CSS"]}
+                    link="https://kopu.com.br/"
+                    tags={["UX/UI", "E-commerce", "Figma"]}
                 />
                 <Case
                     title="Plataforma de cursos online"
                     description="Desenvolvimento de uma plataforma de cursos online com foco em UX/UI e performance."
                     imageUrl="/case1.jpg"
                     imageAlt="Imagem do case 1"
-                    link="#"
-                    tags={["React", "Next.js", "Tailwind CSS"]}
-                />
-                <Case
-                    title="Plataforma de cursos online"
-                    description="Desenvolvimento de uma plataforma de cursos online com foco em UX/UI e performance."
-                    imageUrl="/case1.jpg"
-                    imageAlt="Imagem do case 1"
-                    link="#"
-                    tags={["React", "Next.js", "Tailwind CSS"]}
-                />
-                <Case
-                    title="Plataforma de cursos online"
-                    description="Desenvolvimento de uma plataforma de cursos online com foco em UX/UI e performance."
-                    imageUrl="/case1.jpg"
-                    imageAlt="Imagem do case 1"
-                    link="#"
-                    tags={["React", "Next.js", "Tailwind CSS"]}
+                    link="https://portfolio-kenzo-six.vercel.app/"
+                    githubUrl="https://github.com/felipekenzoo/portfolio-kenzo"
+                    tags={["UX/UI", "E-commerce", "Figma"]}
                 />
 
             </div>
