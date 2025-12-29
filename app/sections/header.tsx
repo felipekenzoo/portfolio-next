@@ -18,10 +18,10 @@ export default function Header() {
             </div>
             <nav className={`${isOpen ? 'block' : 'hidden'} md:block`}>
                 <ul className="flex flex-col md:flex-row gap-4 md:gap-6 items-center">
+                    <li><a href="">Cases</a></li>
                     <li><a href="">Sobre mim</a></li>
-                    <li><a href="">Sobre mim</a></li>
-                    <li><a href="">Sobre mim</a></li>
-                    <li><a href="">Sobre mim</a></li>
+                    <li><a href="">Processo</a></li>
+                    <li><a href="">Perguntas frequentes</a></li>
                 </ul>
             </nav>
             <a className={`${isOpen ? 'flex' : 'hidden'} md:flex pl-4 pr-3 py-2 bg-zinc-50 rounded-2xl gap-1 items-center`} href="#">
