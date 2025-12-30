@@ -6,9 +6,7 @@ export interface CaseProps {
   imageUrl: string;
   imageAlt: string;
   tags: string[];
-  // O link principal continua obrigatório? Se não, coloque '?' nele também
   link: string;
-  // Novas props opcionais (note o ponto de interrogação)
   githubUrl?: string;
   behanceUrl?: string;
 }
@@ -32,8 +30,9 @@ export default function Case({
           className="card-image rounded-3xl mb-6 border border-zinc-200"
           priority
           quality={100}
-          width={900}
-          height={259}
+          width={800}
+          height={450}
+          layout="responsive"
         />
       </div>
 

@@ -2,6 +2,7 @@ import Cases from "./sections/cases";
 import Curiosity from "./sections/curiosity";
 import Header from "./sections/header";
 import Hero from "./sections/hero";
+import Process from "./sections/process";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Curiosity />
         <Cases />
+        <Process />
       </main>
     </div>
   )
