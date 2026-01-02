@@ -1,6 +1,7 @@
 import About from "./sections/about";
 import Cases from "./sections/cases";
 import Curiosity from "./sections/curiosity";
+import FAQ from "./sections/faq";
 import Header from "./sections/header";
 import Hero from "./sections/hero";
 import Process from "./sections/process";
@@ -16,6 +17,7 @@ export default function Home() {
         <Cases />
         <Process />
         <About />
+        <FAQ />
       </main>
     </div>
   )
