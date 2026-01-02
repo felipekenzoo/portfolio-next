@@ -4,7 +4,7 @@ import { MousePointer } from "lucide-react"
 
 export default function Hero() {
     return (
-        <section className="relative flex flex-col w-full min-h-dvh items-center justify-start pt-15 md:pt-32 text-center overflow-hidden bg-zinc-900">
+        <section id="hero" className="relative flex flex-col w-full min-h-dvh items-center justify-start pt-15 md:pt-32 text-center overflow-hidden bg-zinc-900">
             
             <Image
                 src="/bg-hero1.jpg" 

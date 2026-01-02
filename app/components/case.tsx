@@ -22,7 +22,7 @@ export default function Case({
   behanceUrl,
 }: CaseProps) {
   return (
-    <div className="card-container flex flex-col bg-white rounded-3xl border border-zinc-200 p-6">
+    <div className="card-container flex flex-col bg-white rounded-3xl border border-zinc-200 p-7">
       <div className="image-wrapper">
         <Image
           src={imageUrl}
@@ -78,7 +78,7 @@ export default function Case({
             href={behanceUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-orange-500 text-white hover:bg-orange-600 px-5 py-2 rounded-full font-semibold transition-colors"
+            className="bg-blue-600 text-white hover:bg-blue-700 px-5 py-2 rounded-full font-semibold transition-colors"
           >
             Behance
           </a>

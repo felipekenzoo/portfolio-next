@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { useState } from "react"
 
 export default function Header() {
@@ -18,13 +19,13 @@ export default function Header() {
             </div>
             <nav className={`${isOpen ? 'block' : 'hidden'} md:block`}>
                 <ul className="flex flex-col md:flex-row gap-4 md:gap-6 items-center">
-                    <li><a href="">Cases</a></li>
-                    <li><a href="">Sobre mim</a></li>
-                    <li><a href="">Processo</a></li>
-                    <li><a href="">Perguntas frequentes</a></li>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="#cases">Cases</Link></li>
+                    <li><Link href="#process">Processo</Link></li>
+                    <li><Link href="#about">Sobre mim</Link></li>
                 </ul>
             </nav>
-            <a className={`${isOpen ? 'flex' : 'hidden'} md:flex pl-4 pr-3 py-2 bg-zinc-50 rounded-2xl gap-1 items-center`} href="#">
+            <a className={`${isOpen ? 'flex' : 'hidden'} md:flex pl-4 pr-3 py-2 bg-zinc-50 rounded-2xl gap-1 items-center`} href="https://docs.google.com/document/d/1p18kNBF6rTeoDD1DmirrMsadEMDP2V_N/edit?usp=sharing&ouid=101619897725424570851&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
                 <p className="text-zinc-900">Currículo</p>
                 <Image src="/arrow-down.svg" width={20} height={20} alt="arrow-down" />
             </a>

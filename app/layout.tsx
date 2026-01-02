@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Felipe Kenzo",
+  title: "Felipe Kenzo | Front-End Developer | UI/UX Designer",
   description: "Portfolio de Felipe Kenzo, desenvolvedor front-end e designer UI/UX.",
 };
 

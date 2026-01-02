@@ -1,3 +1,4 @@
+import About from "./sections/about";
 import Cases from "./sections/cases";
 import Curiosity from "./sections/curiosity";
 import Header from "./sections/header";
@@ -14,6 +15,7 @@ export default function Home() {
         <Curiosity />
         <Cases />
         <Process />
+        <About />
       </main>
     </div>
   )

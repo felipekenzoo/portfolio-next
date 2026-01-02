@@ -2,7 +2,7 @@ import ProcessCard from "../components/processCard";
 import { Search, Code, Crop, Rocket  } from "lucide-react";
 export default function Process() {
     return (
-        <section className="flex flex-col py-20 px-28 bg-zinc-100">
+        <section className="flex flex-col py-20 px-28 bg-zinc-100" id="process">
             <div>
                 <h2 className="text-zinc-950 text-5xl font-medium">Como posso te ajudar?</h2>
                 <p className="text-zinc-700 py-4 text-lg">Conheça meu processo criativo e descubra como eu posso te ajudar a fortalecer a sua presença digital.</p>
