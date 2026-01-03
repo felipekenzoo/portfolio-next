@@ -11,7 +11,7 @@ export default function Question() {
             className="w-full max-w-2xl text-left focus:outline-none group"
         >
             
-            <div className="flex flex-col bg-zinc-50 rounded-4xl p-8 w-full transition-colors hover:bg-zinc-100">
+            <div className="flex flex-col bg-zinc-50 rounded-4xl p-8 w-full transition-colors">
                 
                 <div className="flex items-start justify-between w-full">
                     <h3 className="text-xl font-bold text-zinc-950 pr-4">
