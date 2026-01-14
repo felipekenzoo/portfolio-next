@@ -30,8 +30,8 @@ export default function Case({
           className="card-image rounded-3xl mb-6 border border-zinc-200"
           priority
           quality={100}
-          width={800}
-          height={450}
+          width={1000}
+          height={600}
           layout="responsive"
         />
       </div>
