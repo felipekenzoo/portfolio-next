@@ -3,14 +3,14 @@ import Case from "../components/case";
 export default function Cases() {
   return (
     <section
-      className="max-w-full flex flex-col py-16 md:py-20 px-6 md:px-12 lg:px-20 bg-zinc-50"
+      className="max-w-full flex flex-col py-16 md:py-20 px-6 md:px-12 lg:px-20 bg-neutral-50"
       id="cases"
     >
       <div className="mb-12 md:mb-20 max-w-7xl mx-auto w-full">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl mb-4 text-zinc-950 font-medium">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl mb-4 text-neutral-950 font-medium">
           Vamos construir um projeto incrível juntos.
         </h2>
-        <p className="text-zinc-700 text-base md:text-lg">
+        <p className="text-neutral-700 text-base md:text-lg">
           Cada case abaixo foi um desafio de negócio que resolvi unindo design
           estratégico e código de alta performance.
         </p>

@@ -22,12 +22,12 @@ export default function Case({
   behanceUrl,
 }: CaseProps) {
   return (
-    <div className="card-container flex flex-col bg-white rounded-3xl border border-zinc-200 p-7">
+    <div className="card-container flex flex-col bg-white rounded-3xl border border-neutral-200 p-7">
       <div className="image-wrapper">
         <Image
           src={imageUrl}
           alt={imageAlt}
-          className="card-image rounded-3xl mb-6 border border-zinc-200"
+          className="card-image rounded-3xl mb-6 border border-neutral-200"
           priority
           quality={100}
           width={1000}
@@ -41,15 +41,15 @@ export default function Case({
           tags.map((tag, index) => (
             <span
               key={index}
-              className="tag-badge bg-zinc-100 px-3 py-1 rounded-full text-zinc-600 border border-zinc-400 text-sm"
+              className="tag-badge bg-neutral-100 px-3 py-1 rounded-full text-neutral-600 border border-neutral-400 text-sm"
             >
               {tag}
             </span>
           ))}
       </div>
 
-      <h3 className="text-3xl text-zinc-950 font-bold mb-2">{title}</h3>
-      <p className="text-zinc-700 leading-relaxed">{description}</p>
+      <h3 className="text-3xl text-neutral-950 font-bold mb-2">{title}</h3>
+      <p className="text-neutral-700 leading-relaxed">{description}</p>
 
       <div className="buttons-row flex flex-wrap gap-3 mt-6">
         
@@ -67,7 +67,7 @@ export default function Case({
             href={githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-zinc-800 text-white hover:bg-zinc-900 px-5 py-2 rounded-full font-semibold transition-colors flex items-center gap-2"
+            className="bg-neutral-800 text-white hover:bg-neutral-900 px-5 py-2 rounded-full font-semibold transition-colors flex items-center gap-2"
           >
             GitHub
           </a>

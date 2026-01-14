@@ -8,14 +8,15 @@ export default function Hero() {
       id="hero"
       className="relative flex flex-col w-full min-h-dvh items-center justify-start pt-15 md:pt-32 text-center overflow-hidden bg-zinc-900"
     >
-      <Image
-        src="/bg-hero1.jpg"
-        alt="Background Hero"
-        className="object-cover z-0 pointer-events-none"
-        priority
-        quality={100}
-        fill
-      />
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
+        <Image
+          src="/bg-hero2.jpg"
+          alt="Imagem de fundo da seção hero"
+          fill
+          className="object-cover object-center"
+          priority
+        />
+      </div>
 
       <div className="relative z-10 flex flex-col items-center w-full px-4 gap-6">
         <Hat

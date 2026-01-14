@@ -8,7 +8,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex flex-col md:flex-row p-4 w-full justify-around items-center gap-4 md:gap-0">
+    <header className="flex flex-col md:flex-row p-4 w-full border border-b bg-neutral-950 border-neutral-900 backdrop-blur-sm justify-around items-center gap-4 md:gap-0">
       <div className="flex w-full md:w-auto justify-between items-center">
         <Image
           src="/logo-header.svg"
@@ -38,7 +38,7 @@ export default function Header() {
         </button>
       </div>
       <nav className={`${isOpen ? "block" : "hidden"} md:block`}>
-        <ul className="flex flex-col md:flex-row gap-4 md:gap-6 items-center">
+        <ul className="flex flex-col md:flex-row gap-4 text-neutral-50 md:gap-6 items-center">
           <li>
             <Link href="/">Home</Link>
           </li>
@@ -56,16 +56,16 @@ export default function Header() {
       <a
         className={`${
           isOpen ? "flex" : "hidden"
-        } md:flex pl-4 pr-3 py-2 border border-zinc-300 rounded-2xl gap-1 items-center transition-all duration-300 hover:bg-zinc-50 group`}
+        } md:flex pl-4 pr-3 py-2 border border-neutral-300 rounded-2xl gap-1 items-center transition-all duration-300 hover:bg-neutral-50 group`}
         href="https://docs.google.com/document/d/1p18kNBF6rTeoDD1DmirrMsadEMDP2V_N/edit?usp=sharing&ouid=101619897725424570851&rtpof=true&sd=true"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <p className="text-zinc-300 group-hover:text-zinc-900 transition-colors duration-300">
+        <p className="text-neutral-300 group-hover:text-neutral-900 transition-colors duration-300">
           Currículo
         </p>
 
-        <div className="text-zinc-300 invert group-hover:filter-none transition-all duration-300">
+        <div className="text-neutral-300 invert group-hover:filter-none transition-all duration-300">
           <Image
             src="/arrow-down.svg"
             width={20}

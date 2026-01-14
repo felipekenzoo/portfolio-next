@@ -17,8 +17,8 @@ export default function SocialLink({ source, url, title }: SocialLinkProps) {
                     height={24}
                     className="mr-2"
                 />
-                <span className="text-zinc-950 font-medium"></span>
-                <span className="text-zinc-950 font-medium">{title}</span>
+                <span className="text-neutral-950 font-medium"></span>
+                <span className="text-neutral-950 font-medium">{title}</span>
             </a>
         </div>
     )

@@ -1,3 +1,5 @@
+"use client";
+
 import About from "./sections/about";
 import Cases from "./sections/cases";
 import FAQ from "./sections/faq";
