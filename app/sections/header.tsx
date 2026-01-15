@@ -8,12 +8,12 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex flex-col md:flex-row p-4 w-full border border-b bg-neutral-950 border-neutral-900 backdrop-blur-sm justify-around items-center gap-4 md:gap-0">
+    <header className="fixed top-0 left-0 right-0 z-50 flex flex-col md:flex-row p-4 w-full border border-b bg-neutral-950 border-neutral-900 backdrop-blur-sm justify-around items-center gap-4 md:gap-0">
       <div className="flex w-full md:w-auto justify-between items-center">
         <Image
           src="/logo-header.svg"
-          width={64}
-          height={64}
+          width={48}
+          height={48}
           alt="logo-header"
         />
         <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
@@ -23,7 +23,7 @@ export default function Header() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-8 h-8"
+            className="w-8 h-8 text-white"
           >
             <path
               strokeLinecap="round"
@@ -40,16 +40,19 @@ export default function Header() {
       <nav className={`${isOpen ? "block" : "hidden"} md:block`}>
         <ul className="flex flex-col md:flex-row gap-4 text-neutral-50 md:gap-6 items-center">
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/" className="hover:text-zinc-400 transition-all duration-200 ease-in-out">Home</Link>
           </li>
           <li>
-            <Link href="#cases">Cases</Link>
+            <Link href="#about" className="hover:text-zinc-400 transition-all duration-200 ease-in-out">Sobre mim</Link>
           </li>
           <li>
-            <Link href="#process">Processo</Link>
+            <Link href="#process" className="hover:text-zinc-400 transition-all duration-200 ease-in-out">Processo</Link>
           </li>
           <li>
-            <Link href="#about">Sobre mim</Link>
+            <Link href="#cases" className="hover:text-zinc-400 transition-all duration-200 ease-in-out">Cases</Link>
+          </li>
+          <li>
+            <Link href="#faq" className="hover:text-zinc-400 transition-all duration-200 ease-in-out">Perguntas Frequentes</Link>
           </li>
         </ul>
       </nav>
@@ -61,7 +64,7 @@ export default function Header() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <p className="text-neutral-300 group-hover:text-neutral-900 transition-colors duration-300">
+        <p className="text-neutral-300 group-hover:text-neutral-900 group-hover:px-2 transition-all duration-300 ease-in-out">
           Currículo
         </p>
 
