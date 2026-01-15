@@ -8,8 +8,8 @@ export default function Process() {
       id="process"
     >
       <div className="max-w-7xl mx-auto w-full">
-        <h2 className="text-neutral-50/90 text-3xl md:text-4xl lg:text-5xl font-medium">
-          Como posso te ajudar?
+        <h2 className="text-neutral-50/95 text-3xl md:text-4xl lg:text-5xl font-medium">
+          Como é meu processo de trabalho?
         </h2>
         <p className="text-neutral-400 py-4 text-base md:text-lg">
           Conheça meu processo criativo e descubra como eu posso te ajudar a
@@ -21,28 +21,28 @@ export default function Process() {
           index="01"
           icon={<Search />}
           title="Pesquisa"
-          description="Analiso negócio e concorrentes para identificar necessidades reais e alinhar o design aos objetivos."
+          description="Iniciamos com uma conversa para entender suas necessidades, público-alvo, objetivos e requisitos do projeto."
         />
         <ProcessCard
           index="02"
           icon={<Crop />}
           title="Design"
-          description="Crio fluxos, wireframes e interfaces visuais focadas em clareza, usabilidade e consistência."
+          description="Partindo das informações coletadas, crio protótipos e layouts para garantir uma experiência intuitiva e agradável."
         />
         <ProcessCard
           index="03"
           icon={<Code />}
           title="Desenvolvimento"
-          description="Transformo o design em interfaces reais, garantindo fidelidade visual e eficiência no desenvolvimento."
+          description="Neste momento a mágica acontece: Tiramos o design do papel e transformamos em um projeto real e de alta performance."
         />
         <ProcessCard
           index="04"
           icon={<Rocket />}
           title="Entrega"
-          description="Entrego o projeto finalizado com toda a documentação necessária, garantindo clareza e prontidão."
+          description="Te entrego o projeto finalizado, pronto para ser lançado e causar uma ótima impressão nos seus clientes."
         />
       </div>
-      <div className="flex justify-between max-w-7xl mx-auto w-full pt-10 mt-10 border-t border-neutral-800/80 pb-6 md:pb-0 flex-col md:flex-row gap-4 md:gap-0">
+      <div className="flex justify-between max-w-7xl mx-auto w-full pt-10 mt-10 border-t border-neutral-900/80 pb-6 md:pb-0 flex-col md:flex-row gap-4 md:gap-0">
         <h6 className="text-md text-neutral-100">
           Pensando no usuário em cada etapa do processo
           <span className="text-md font-light text-neutral-400">

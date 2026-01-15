@@ -8,7 +8,7 @@ export default function Cases() {
     >
       <div className="mb-12 md:mb-20 max-w-7xl mx-auto w-full">
         <h2 className="text-3xl md:text-4xl lg:text-5xl mb-4 text-neutral-950 font-medium">
-          Vamos construir um projeto incrível juntos.
+          Podemos construir um projeto incrível juntos.
         </h2>
         <p className="text-neutral-700 text-base md:text-lg">
           Cada case abaixo foi um desafio de negócio que resolvi unindo design

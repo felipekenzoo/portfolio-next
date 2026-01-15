@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hat from "../components/hat";
 import { MousePointer } from "lucide-react";
 
@@ -6,19 +5,11 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex flex-col w-full min-h-dvh items-center justify-start pt-15 md:pt-32 text-center overflow-hidden bg-zinc-900"
+      className="relative flex flex-col w-full items-center justify-start bg-[url('/bg-hero2.jpg')] bg-cover bg-center bg-no-repeat py-160 md:pt-32 text-center overflow-hidden"
     >
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
-        <Image
-          src="/bg-hero2.jpg"
-          alt="Imagem de fundo da seção hero"
-          fill
-          className="object-cover object-center"
-          priority
-        />
-      </div>
+      <div className="pointer-events-none absolute bottom-0 left-0 w-full h-40 md:h-56 bg-linear-to-t from-black/50 to-transparent" />
 
-      <div className="relative z-10 flex flex-col items-center w-full px-4 gap-6">
+      <div className="relative flex flex-col items-center w-full px-4 gap-6">
         <Hat
           icon={<MousePointer size={20} />}
           title="Desenvolvedor Front-end e UI/UX Designer"

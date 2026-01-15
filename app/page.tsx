@@ -14,9 +14,9 @@ export default function Home() {
       <main className="flex-1 w-full">
         <Header />
         <Hero />
-        <Cases />
         <About />
         <Process />
+        <Cases />
         <FAQ />
         <Footer />
       </main>

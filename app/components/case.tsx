@@ -22,12 +22,12 @@ export default function Case({
   behanceUrl,
 }: CaseProps) {
   return (
-    <div className="card-container flex flex-col bg-white rounded-3xl border border-neutral-200 p-7">
+    <div className="card-container flex flex-col bg-white rounded-3xl border border-neutral-200/50 p-7">
       <div className="image-wrapper">
         <Image
           src={imageUrl}
           alt={imageAlt}
-          className="card-image rounded-3xl mb-6 border border-neutral-200"
+          className="card-image rounded-3xl mb-6 border border-neutral-200/50 object-cover"
           priority
           quality={100}
           width={1000}
