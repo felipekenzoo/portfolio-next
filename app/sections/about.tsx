@@ -28,17 +28,11 @@ export default function About() {
               Felipe Sunakozawa
             </h2>
             <h3 className="text-neutral-800 text-lg md:text-xl mb-6">
-              Desenvolvedor Front-End | UI/UX Designer
+              Desenvolvedor Front-End e UI/UX Designer
             </h3>
           </div>
           <p className="text-neutral-700 text-base md:text-lg">
-            Estudo Sistemas de Informação e atuo há 1 ano com Front-end e UI/UX
-            Design. Minha experiência me permite unir código e design para
-            transformar ideias em interfaces digitais eficientes, claras e
-            responsivas. Tenho como foco evoluir continuamente meus processos e
-            conhecimentos em tecnologias como React e Next.js, sempre com o
-            objetivo de criar soluções que fortalecem a presença digital de
-            marcas e negócios.
+            Sou desenvolvedor Front-end e estudante de Sistemas de Informação, atuando há mais de dois anos na criação de interfaces e produtos digitais. Acredito em experiências bem pensadas, fáceis de usar e que fazem sentido para quem está do outro lado da tela. Trabalho unindo UI, UX e código desde o início do processo, porque visual e lógica não deveriam andar separados.
           </p>
           <div className="mt-6 flex gap-6 md:gap-8 justify-center lg:justify-start">
             <SocialLink

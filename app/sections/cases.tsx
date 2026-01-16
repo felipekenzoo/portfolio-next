@@ -3,7 +3,7 @@ import Case from "../components/case";
 export default function Cases() {
   return (
     <section
-      className="max-w-full flex flex-col py-16 md:py-20 px-6 md:px-12 lg:px-20 bg-neutral-50"
+      className="flex flex-col py-16 md:py-20 px-6 md:px-12 lg:px-12 bg-neutral-50"
       id="cases"
     >
       <div className="mb-12 md:mb-20 max-w-7xl mx-auto w-full">

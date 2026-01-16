@@ -3,6 +3,7 @@
 import About from "./sections/about";
 import Cases from "./sections/cases";
 import FAQ from "./sections/faq";
+import FinalSection from "./sections/finalcta";
 import Footer from "./sections/footer";
 import Header from "./sections/header";
 import Hero from "./sections/hero";
@@ -18,6 +19,7 @@ export default function Home() {
         <Process />
         <Cases />
         <FAQ />
+        <FinalSection />
         <Footer />
       </main>
     </div>

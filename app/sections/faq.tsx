@@ -6,7 +6,7 @@ import Question from "../components/question";
 export default function FAQ() {
   return (
     <section
-      className="px-6 md:px-12 lg:px-24 xl:px-96 bg-neutral-100/95 py-16 md:py-20"
+      className="px-6 md:px-12 lg:px-24 xl:px-48 bg-neutral-100/95 py-16 md:py-20"
       id="faq"
     >
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-20 justify-between">
