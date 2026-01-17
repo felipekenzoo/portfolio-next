@@ -16,8 +16,8 @@ export default function Home() {
         <Header />
         <Hero />
         <About />
-        <Process />
         <Cases />
+        <Process />
         <FAQ />
         <FinalSection />
         <Footer />

@@ -32,7 +32,6 @@ export default function Case({
           quality={100}
           width={1000}
           height={600}
-          layout="responsive"
         />
       </div>
 
@@ -52,7 +51,6 @@ export default function Case({
       <p className="text-neutral-700 leading-relaxed">{description}</p>
 
       <div className="buttons-row flex flex-wrap gap-3 mt-6">
-        
         <a
           href={link}
           target="_blank"

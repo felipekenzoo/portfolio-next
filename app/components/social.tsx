@@ -9,7 +9,7 @@ export interface SocialLinkProps {
 export default function SocialLink({ source, url, title }: SocialLinkProps) {
     return (
         <div className="flex items-center">
-            <a href={url} className="flex items-center hover:opacity-80 transition-opacity" target="_blank" rel="noopener noreferrer">
+            <a href={url} className="flex items-center hover:opacity-70 transition-opacity duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">
                 <Image
                     src={source}
                     alt={title}
