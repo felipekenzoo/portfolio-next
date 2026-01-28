@@ -2,7 +2,7 @@ import { Code, Earth } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-between px-28 py-8 bg-neutral-950 flex-col md:flex-row gap-4 md:gap-0 items-center">
+    <footer className="flex flex-col lg:justify-between text-center lg:px-28 py-8 bg-neutral-950 md:flex-row gap-4 md:gap-0 items-center">
       <h6 className="text-sm text-neutral-50">
         Felipe Sunakozawa
         <span className="text-sm font-extralight text-neutral-400">

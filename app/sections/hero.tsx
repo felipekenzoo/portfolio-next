@@ -35,15 +35,15 @@ export default function Hero() {
           Construindo experiências digitais, do design ao código.
         </h1>
 
-        <p className="text-lg md:text-xl text-zinc-200 font-light max-w-2xl leading-relaxed drop-shadow-md">
+        <p className="text-md md:text-xl text-zinc-200 font-light max-w-2xl leading-relaxed drop-shadow-md">
           Meu trabalho é transformar ideias e layouts em código limpo e
-          responsivo.
-          <br className="hidden md:block" />
+          responsivo. <br className="hidden md:block" />
+          <br className="lg:hidden md:block" />
           Pensando na experiência do usuário em cada etapa do desenvolvimento.
         </p>
         <div className="flex gap-6">
           <a
-            href="https://www.linkedin.com/feed/"
+            href="https://www.linkedin.com/in/felipesunakozawa/"
             className="py-3 px-7 border font-semibold text-md border-neutral-300 text-neutral-50 rounded-2xl hover:px-10 hover:bg-zinc-50 hover:text-neutral-950 transition-all duration-300 ease-in-out sm:text-md"
           >
             Fale comigo

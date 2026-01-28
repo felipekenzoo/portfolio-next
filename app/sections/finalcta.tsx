@@ -3,7 +3,7 @@ import SocialLink from "../components/social";
 
 export default function FinalSection() {
   return (
-    <section className="md:px-12 lg:px-80 py-16 md:py-30 bg-neutral-100/20 flex justify-between gap-6 md:gap-8">
+    <section className="flex flex-col lg:flex-row px-10 md:px-12 lg:px-80 py-16 md:py-30 bg-neutral-100/20 justify-between gap-6 md:gap-8">
       <div id="left">
         <div className="flex items-center gap-1.5">
           <div className="bg-green-500 h-3 w-3 rounded-2xl border border-green-100"></div>
@@ -27,7 +27,7 @@ export default function FinalSection() {
         </div>
       </div>
 
-      <div id="right" className="items-center flex flex-col">
+      <div id="right" className="items-center flex flex-col mt-10 lg:mt-10">
         <Image
           src="/logo-cta.png"
           alt="Final Call to Action Image"
