@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex flex-col w-full items-center justify-start bg-cover bg-center bg-no-repeat md:pt-56 md:py-56 text-center overflow-hidden pb-10"
+      className="relative flex flex-col w-full items-center py-32 justify-start bg-cover bg-center bg-no-repeat md:pt-56 md:py-56 text-center overflow-hidden pb-10"
     >
       <div className="absolute inset-0 z-0 pointer-events-none">
         <Beams
@@ -25,7 +25,7 @@ export default function Hero() {
 
       <div className="pointer-events-none absolute bottom-0 left-0 w-full h-40 md:h-56 bg-linear-to-t from-black/90 to-transparent z-10" />
 
-      <div className="relative z-20 flex flex-col items-center w-full px-4 gap-6">
+      <div className="relative z-20 flex flex-col items-center w-full px-2 gap-6">
         <Hat
           icon={<MousePointer size={20} />}
           title="Desenvolvedor Front-end e UI/UX Designer"

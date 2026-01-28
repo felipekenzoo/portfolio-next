@@ -12,9 +12,35 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata: Metadata = {
-  title: "Olá! Sou Felipe Kenzo - Desenvolvedor Front-end & UI/UX Designer",
-  description: "Portfolio de Felipe Kenzo, desenvolvedor front-end e designer UI/UX.",
+  title: "Felipe Sunakozawa | Portfólio",
+  description:
+    "Portfólio pessoal de Felipe Sunakozawa, reunindo meus melhores trabalhos em desenvolvimento front-end.",
+  openGraph: {
+    title: "Felipe Sunakozawa | Portfólio",
+    description:
+      "Meus melhores trabalhos, projetos reais e experiências em desenvolvimento front-end.",
+    url: "https://felipesunakozawa.com",
+    siteName: "Felipe Sunakozawa",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Portfólio de Felipe Sunakozawa",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Felipe Sunakozawa | Portfólio",
+    description:
+      "Meus melhores trabalhos, projetos reais e experiências em desenvolvimento front-end.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
