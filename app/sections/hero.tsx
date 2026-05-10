@@ -167,7 +167,7 @@ export default function Hero() {
               <div className="mt-2 text-xs uppercase tracking-[0.18em] text-white/45">Anos de experiência</div>
             </div>
             <div>
-              <div className="text-4xl font-medium tracking-[-0.05em] text-white md:text-5xl">40+</div>
+              <div className="text-4xl font-medium tracking-[-0.05em] text-white md:text-5xl">20+</div>
               <div className="mt-2 text-xs uppercase tracking-[0.18em] text-white/45">Projetos e entregas</div>
             </div>
           </div>
